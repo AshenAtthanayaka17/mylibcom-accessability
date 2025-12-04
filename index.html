@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Statement - MyLibCom</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom theme colors */
+        :root {
+            --color-primary-dark: #0F172A; /* Slate-900 equivalent */
+            --color-accent-green: #34D399; /* Emerald-400 equivalent */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-primary-dark);
+        }
+        .header-bg {
+            background-color: #1E293B; /* Slightly lighter dark color for header/card backgrounds */
+        }
+        .text-accent {
+            color: var(--color-accent-green);
+        }
+        .hover-link:hover {
+            color: var(--color-accent-green);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 min-h-screen flex flex-col text-slate-200">
+
+    <!-- Header / Navigation Bar (Unchanged) -->
+    <header class="header-bg shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="https://ashenatthanayaka17.github.io/mylibcom/" class="text-2xl font-bold flex items-center">
+                <i class="fas fa-book-open text-accent mr-2"></i>
+                <span class="text-white">MyLib</span><span class="text-accent">Com</span>
+            </a>
+            <div class="hidden sm:block">
+                <div class="relative w-96">
+                    <input type="search" placeholder="Search titles, authors, or genres..." class="w-full py-2 pl-10 pr-4 rounded-xl header-bg border border-slate-700 focus:ring-accent focus:border-accent text-sm text-white" />
+                    <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content: Accessibility Statement -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 class="text-4xl font-extrabold mb-8 text-white">Accessibility Statement</h1>
+        <p class="text-slate-400 mb-8">
+            *Date of Last Review: December 5, 2025*
+        </p>
+
+        <section class="space-y-6">
+            <h2 class="text-2xl font-semibold text-accent pt-4 border-b border-slate-700 pb-2">1. Commitment to Accessibility</h2>
+            <p>
+                MyLibCom is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We are actively working to increase the accessibility and usability of our website and in doing so adhere to many of the available standards and guidelines.
+            </p>
+
+            <h2 class="text-2xl font-semibold text-accent pt-4 border-b border-slate-700 pb-2">2. Conformance Status</h2>
+            <p>
+                The MyLibCom platform endeavors to conform with the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. WCAG guidelines define three levels of conformance: A, AA, and AAA. Our goal is Level AA conformance, which is widely recognized as providing a satisfactory level of accessibility for digital content.
+            </p>
+
+            <h2 class="text-2xl font-semibold text-accent pt-4 border-b border-slate-700 pb-2">3. Non-Accessible Content</h2>
+            <p>
+                While MyLibCom strives to adhere to the accepted guidelines and standards for accessibility and usability, it is not always possible to do so in all areas of the website. We are aware of some areas where we could improve accessibility:
+            </p>
+            <ul class="list-disc list-inside ml-4 space-y-2 text-slate-300">
+                <li>**Legacy Content:** Some older documents or archived e-book previews may not be fully accessible or properly tagged for screen readers.</li>
+                <li>**Third-Party Embeds:** Content embedded from external sources (e.g., video players or third-party advertisements) may not fully conform to WCAG standards. We encourage users to contact the third party directly in these cases.</li>
+                <li>**Dynamic Elements:** Certain complex, interactive components, particularly those handling advanced search filters, may not be fully optimized for keyboard-only navigation.</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold text-accent pt-4 border-b border-slate-700 pb-2">4. Feedback and Contact</h2>
+            <p>
+                We welcome your feedback on the accessibility of MyLibCom. Please let us know if you encounter accessibility barriers on the site. We try to respond to feedback within 5 business days.
+            </p>
+            <div class="p-4 rounded-xl bg-slate-800 border border-slate-700 text-slate-300">
+                <p class="font-semibold text-white mb-2">Contact Details:</p>
+                <ul class="space-y-1">
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope text-accent mr-2"></i>
+                        Email: <a href="mailto:admin@mylibcom.co.uk" class="text-accent hover:underline ml-1">admin@mylibcom.co.uk</a>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-phone-alt text-accent mr-2"></i>
+                        Phone: +44 7418 315820
+                    </li>
+                </ul>
+                <p class="mt-2 text-xs text-slate-400">
+                    If you require information in a different format, please contact us.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer - EXACT REPLICATION FROM IMAGE (Unchanged) -->
+    <footer class="bg-slate-900 border-t border-slate-800 pt-12 pb-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-sm">
+
+                <!-- Column 1: MyLibCom Info & Credits -->
+                <div class="space-y-4">
+                    <div class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-book-open text-accent mr-2"></i>
+                        <span class="text-white">MyLib</span><span class="text-accent">Com</span>
+                    </div>
+                    <p class="text-slate-400">
+                        Perfect platform to find out if it is worth reading that book in your mind.
+                    </p>
+                    <div class="pt-4">
+                        <h4 class="text-lg font-semibold text-white mb-2">Credits</h4>
+                        <p class="text-slate-400">
+                            Designed & Developed by <a href="#" class="text-accent hover:underline">MyLib Team</a>
+                        </p>
+                        <p class="text-slate-400">
+                            Icons by FontAwesome & images by Katha.lk
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Column 2: Site Priorities -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-white mb-4">Site Priorities</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="https://ashenatthanayaka17.github.io/mylibcom-privacypolicy/" class="flex items-center text-slate-400 hover-link">
+                                <i class="fas fa-chevron-right text-accent text-xs mr-3"></i> User Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://ashenatthanayaka17.github.io/mylibcom-drm/" class="flex items-center text-slate-400 hover-link">
+                                <i class="fas fa-chevron-right text-accent text-xs mr-3"></i> Digital Rights Management
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://ashenatthanayaka17.github.io/mylibcom-accessability/" class="flex items-center text-slate-400 hover-link">
+                                <i class="fas fa-chevron-right text-accent text-xs mr-3"></i> Accessibility Statement
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-slate-400 hover-link">
+                                <i class="fas fa-chevron-right text-accent text-xs mr-3"></i> Community Guidelines
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-slate-400 hover-link">
+                                <i class="fas fa-chevron-right text-accent text-xs mr-3"></i> Terms of Service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact Us & Social Media -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-white mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <div class="flex items-start text-slate-400">
+                                <i class="fas fa-map-marker-alt text-accent mt-1 mr-3 flex-shrink-0"></i>
+                                <span>21A Islington Park Street, London, N1 1QB, United Kingdom</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center text-slate-400">
+                                <i class="fas fa-phone-alt text-accent mr-3"></i>
+                                <span class="space-y-1">
+                                    <p>+44 7418 315820</p>
+                                    <p>+44 2087 867679</p>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center text-slate-400">
+                                <i class="fas fa-envelope text-accent mr-3"></i>
+                                <a href="mailto:admin@mylibcom.co.uk" class="hover:underline">admin@mylibcom.co.uk</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Social Media Icons -->
+                    <div class="flex space-x-4 pt-4">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-slate-800 hover:bg-accent transition duration-300 rounded text-slate-300 hover:text-white" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-slate-800 hover:bg-accent transition duration-300 rounded text-slate-300 hover:text-white" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-slate-800 hover:bg-accent transition duration-300 rounded text-slate-300 hover:text-white" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-slate-800 hover:bg-accent transition duration-300 rounded text-slate-300 hover:text-white" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
